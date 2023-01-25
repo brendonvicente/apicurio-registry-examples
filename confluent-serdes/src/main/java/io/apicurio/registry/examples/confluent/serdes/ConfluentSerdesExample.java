@@ -68,7 +68,7 @@ import io.confluent.kafka.serializers.KafkaAvroSerializer;
 public class ConfluentSerdesExample {
 
     private static final String REGISTRY_URL = "http://localhost:8080/apis/registry/v2";
-    private static final String CCOMPAT_API_URL = "http://localhost:8080/apis/ccompat/v6";
+    private static final String CCOMPAT_API_URL = "http://localhost:8080/apis/ccompat/v7";
 
     private static final String SERVERS = "localhost:9092";
     private static final String TOPIC_NAME = ConfluentSerdesExample.class.getSimpleName();
